@@ -7,5 +7,12 @@ B - 60 to 79
 C - 59 to 49
 D - 40 to 49
 E - less than 40
-How It Works:
+### How It Works:
 The function takes user input for a student's mark and determines the grade based on predefined grade boundaries.
+
+## Challenge 2: Speed Detector (Toy Problem)
+Write a program that takes the speed of a car as input (e.g., 80 km/h). If the speed is less than 70 km/h, it should print "Ok". Otherwise, for every 5 km/h above the speed limit (70 km/h), it should give the driver one demerit point and print the total number of demerit points.
+
+If the driver accumulates more than 12 demerit points, the program should print "License suspended".
+### How It Works:
+The program calculates demerit points based on how much the driver exceeds the speed limit and determines if the license should be suspended based on the demerit points accumulated.
